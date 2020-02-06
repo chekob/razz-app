@@ -20,5 +20,8 @@
     "start": "node server/index.js"
   },
   "author": "Sergio B",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "12.13.1"
+  }
 }
