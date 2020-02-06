@@ -21,6 +21,7 @@ const users = require('./routes/api/users');
 app.use('/api/users', users);
 
 // Handle production
+console.log(process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'production') {
     app.use(staticFileMiddleware)
         .use(history())
