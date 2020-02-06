@@ -21,7 +21,4 @@
   },
   "author": "Sergio B",
   "license": "MIT",
-  "engines": {
-    "node": "12.13.1"
-  }
 }
