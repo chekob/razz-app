@@ -22,6 +22,7 @@ app.use('/api/users', users);
 
 // Handle production
 if (process.env.NODE_ENV === 'production') {
+    // "build": "node server/index.js",
     app.use(staticFileMiddleware)
         .use(history())
         .use(staticFileMiddleware);
